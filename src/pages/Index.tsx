@@ -1,4 +1,5 @@
 import { MapPin, Bike, Bus, Utensils, ShoppingBag, Home, Leaf, TrendingUp, Clock, Users } from 'lucide-react';
+import WalkabilityMap from '@/components/WalkabilityMap';
 
 export default function Index() {
   const neighborhoods = [
