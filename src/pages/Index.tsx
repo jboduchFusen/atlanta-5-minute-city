@@ -89,6 +89,13 @@ export default function Index() {
         </div>
       </div>
 
+      {/* Interactive Map Section */}
+      <div className="mx-auto max-w-6xl px-4 py-16">
+        <h2 className="mb-4 text-3xl font-bold text-foreground">Explore Your 5-Minute Radius</h2>
+        <p className="mb-12 text-lg text-foreground/70">Search any Atlanta location to see what's within walking distance</p>
+        <WalkabilityMap />
+      </div>
+
       {/* Key Neighborhoods */}
       <div className="mx-auto max-w-6xl px-4 py-16">
         <h2 className="mb-4 text-3xl font-bold text-foreground">Top 5-Minute Neighborhoods</h2>
